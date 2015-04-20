@@ -1,48 +1,140 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 body {
-	line-height: 1;
+    font-family: 'Open Sans', sans-serif;
 }
-ol, ul {
-	list-style: none;
+
+
+#navigator {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
 }
-blockquote, q {
-	quotes: none;
+
+#logo img {
+    width: 8%;
+
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+#introducing img {
+    width: 100%;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+#ik {
+    color:white;
+    margin-top: -30%;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#ik2 {
+    color: white;
+    margin-top: -2%;
+    text-align: center;
+    font-size: 2em;
+}
+
+#lm {
+    margin-left: 45%;
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+
+#everyone {
+    margin-top: 20%;
+    text-align: center;
+    font-size: 2em;
+}
+
+#icons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 16%;
+    margin-top: -4%;
+}
+
+#internet {
+    padding: 7%;
+}
+
+#coffee {
+    padding: 6%;
+}
+
+#gas {
+    padding: 7%;
+    width: 13%;
+}
+
+#line {
+  width: 59%;
+  border-top: gray solid 1px;
+  margin-left: 20%;
+  margin-top: -2%;
+}
+
+#join {
+    text-align: center;
+}
+
+#socialmedia {
+    display: flex;
+    flex-direction: row;
+    margin-left: 44%;
+}
+
+#twitter, #fb, #insta {
+
+    border-radius: 100%;
+    width: 4%;
+    height: 30px;
+    border: gray solid 1px;
+    margin: 0.5%;
+    line-height: 30px;
+
+}
+
+#twitter {
+    padding: 1%;
+    text-align: center;
+}
+
+#fb {
+    padding: 1%;
+    text-align: center;
+}
+
+#insta {
+    padding: 1%;
+    text-align: center;
+}
+
+#twitter img, #fb img, #insta img {
+    width: 60%;
+}
+
+#footer {
+    text-align: center;
+    color: gray;
+}
+
+#meetkarma {
+    color: black;
+}
+
+ul {
+    color: gray;
+}
+
+ul:hover {
+    color: black;
+}
+
+#lm:hover {
+    background-color: #8C381B;
 }
